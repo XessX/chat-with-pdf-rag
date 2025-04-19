@@ -1,0 +1,63 @@
+# ───────────────
+# Python
+# ───────────────
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# ───────────────
+# Virtual Env
+# ───────────────
+.venv/
+venv/
+ENV/
+env/
+
+# ───────────────
+# IDE / OS Files
+# ───────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ───────────────
+# Streamlit
+# ───────────────
+.streamlit/secrets.toml
+
+# ───────────────
+# Environment Configs
+# ───────────────
+.env
+.env.*
+
+# ───────────────
+# ChromaDB
+# ───────────────
+chroma_store/
+
+# ───────────────
+# Render / Docker
+# ───────────────
+*.db
+*.sqlite3
+__pycache__/
+docker_output/
+*.pid
+
+# ───────────────
+# Temp & Uploads
+# ───────────────
+*.tmp
+temp.pdf
+*.zip
+
+# ───────────────
+# Node (if frontend)
+# ───────────────
+node_modules/
